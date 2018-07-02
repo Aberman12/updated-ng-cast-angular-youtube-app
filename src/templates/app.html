@@ -1,0 +1,15 @@
+<div id="app container">
+  <nav class="navbar">
+    <div class="col-md-6 col-md-offset-3">
+      <search on-update="$ctrl.onUpdate"></search>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-md-7">
+      <video-player selected-video="$ctrl.selectedVideo"></video-player>
+    </div>
+    <div class="col-md-5">
+      <video-list change-selected-video="$ctrl.changeSelectedVideo" videos="$ctrl.videos"></video-list>
+    </div>
+  <div>
+</div>
